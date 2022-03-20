@@ -1,0 +1,103 @@
+/* COUNSELING */
+
+/* 1. 상담실 입장: 상담실 세션 설정 */
+
+/* 상담실 세션 설정 영역 */
+.part-room-setting {
+  width: 48vw;
+
+  background: white;
+  border-radius: 20px;
+  filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.3));
+}
+
+
+
+/* 2. 상담: 상담 도구 및 기능 */
+
+/* 비디오 영역 */
+.part-video-hor {
+  width: 37vw;
+}
+
+.part-video-ver {
+  width: 35vw;
+}
+
+/* 상담사 비디오 영역 */
+#user-video:nth-of-type(1) > p {
+  color: white;
+}
+
+/* 내담자 비디오 영역 */
+#user-video:nth-of-type(2) > p {
+  color: #FFDF70;
+}
+
+/* 메모 영역 */
+#memo {
+  height: 83vh;
+  background: #FBC1AD;
+}
+
+/* 메모 폼 영역 */
+.part-tool {
+  background: white;
+  border-radius: 20px;
+  filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.3));
+}
+
+/* 메모 폼 내용 */
+.form-content {
+  height: 50vh;
+  resize: none;
+}
+
+/* 감정분석 데이터 메시지 */
+.area-msg {
+  height: 83vh;
+  background: #CFE7EB;
+}
+
+/* 기록 영역 */
+#records {
+  height: 83vh;
+  background: #FFDF70;
+}
+
+/* 상세 기록 영역 */
+.part-record {
+  background: white;
+  border-radius: 20px;
+  filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.3));
+}
+
+/* footer */
+.area-footer {
+  height: 8vh;
+  background: #EDE1C9;
+}
+
+
+
+/* 3. 상담 종료: 피드백(후기 및 평점) 기록 */
+
+/* 상담실 피드백 영역 */
+.part-feedback {
+  width: 30vw;
+
+  background: white;
+  border-radius: 20px;
+  filter: drop-shadow(2px 2px 10px rgba(255, 255, 255));
+}
+
+/* 피드백 폼 내용 */
+.form-content-fb {
+  height: 25vh;
+  resize: none;
+}
+
+/* 피드백 평점 */
+.img-star {
+  width: 2.3vw;
+}

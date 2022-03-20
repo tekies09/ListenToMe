@@ -1,0 +1,245 @@
+/* HOME */
+
+/* 1. FONT */
+
+/* 굵은 제목 */
+.f-title-bold {
+  font-size: 2vw;
+  font-weight: 600;
+  color: #000000;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* 굵은 제목 */
+.f-title {
+  font-size: 2vw;
+  color: #000000;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* 굵은 부제 */
+.f-subtitle-bold {
+  font-size: 1.3vw;
+  font-weight: 600;
+  color: #000000;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* 부제 */
+.f-subtitle {
+  font-size: 1.3vw;
+  color: #000000;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* 본문 */
+.f-normal {
+  font-size: 1vw;
+  color: #000000;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* 굵은 본문 */
+.f-normal-bold {
+  font-size: 1vw;
+  font-weight: 600;
+  color: #000000;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* 버튼 */
+.f-btn {
+  font-size: 1.2vw;
+  color: #000000;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* 2. BUTTON */
+
+/* 확인 */
+.btn-ok {
+  width: 8vw;
+  height: 6vh;
+
+  border: none;
+  outline: none;
+
+  background: #7DABD0;
+  border-radius: 20px;
+  filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.3));
+}
+
+/* 취소 */
+.btn-cancel {
+  width: 6vw;
+  height: 5vh;
+
+  border: none;
+  outline: none;
+
+  background: #ED9C9C;
+  border-radius: 20px;
+  filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.3));
+}
+
+/* 도구 */
+.btn-tool {
+  width: 6vw;
+  height: 5vh;
+  line-height: 5vh;
+
+  border: none;
+  outline: none;
+
+  background: #95D0F1;
+  border-radius: 20px;
+  filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.3));
+}
+
+/* 기능 */
+.btn-func {
+  width: 6vw;
+  height: 5vh;
+
+  border: none;
+  outline: none;
+
+  background: #CFE7EB;
+  border-radius: 20px;
+  filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.2));
+}
+
+/* 더보기 */
+.btn-more {
+  width: 4vw;
+  height: 4vh;
+  line-height: 4vh;
+
+  border: none;
+  outline: none;
+
+  background: #95D0F1;
+  border-radius: 20px;
+  filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.3));
+}
+
+/* 상담실 */
+.btn-counseling {
+  width: 5vw;
+  height: 4vh;
+  line-height: 4vh;
+
+  border: none;
+  outline: none;
+
+  background: #ED9C9C;
+  border-radius: 20px;
+  filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.3));
+}
+
+
+
+/* 홈 화면 */
+
+/* 이미지 */
+.part-home-image {
+  border: none;
+  outline: none;
+}
+
+/* 상담사 */
+.part-counselor {
+  width: 13vw;
+
+  border: none;
+
+  background: #fff4e8;
+  border-radius: 20px;
+  filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.3));
+}
+
+
+
+/* 상담사 화면 */
+
+/* 전역 설정 */
+#counselors {
+  height: 91vh;
+  overflow: auto;
+}
+
+#counselor-detail {
+  height: 91vh;
+  overflow: auto;
+}
+
+/* 카테고리 */
+.part-cat {
+  /* width: 3.8vw; */
+  height: 3.5vh;
+  line-height: 3.5vh;
+
+  padding: 0 0.5vw;
+
+  background: #95D0F1;
+  border-radius: 20px;
+}
+
+#list {
+  height: 91vh;
+  overflow: auto;
+}
+
+#statistics {
+  height: 91vh;
+  overflow: auto;
+}
+
+
+
+
+/* 북마크된 전체 상담사 */
+#marked-counselors {
+  height: 91vh;
+  overflow: auto;
+}
+
+/* 북마크된 전체 상담사 */
+#records {
+  height: 91vh;
+  overflow: auto;
+}
+
+
+
+
+/* 상담사 프로필 */
+.part-profile {
+  width: 60vw;
+
+  background: white;
+  border-radius: 20px;
+  filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.3));
+}
+
+.sec-profile {
+  background: white;
+  border-radius: 20px;
+  filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.3));
+}
+
+/* 북마크된 전체 상담사 */
+#profile {
+  height: 91vh;
+  overflow: auto;
+}
+
+
+
+/* PADDING */
+
+.p-routing {
+  padding: 6vh 5vw;
+}

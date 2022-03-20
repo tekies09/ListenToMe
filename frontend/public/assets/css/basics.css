@@ -1,0 +1,153 @@
+/* NavBar */
+
+/* 네비게이션바 전역 */
+.area-nav {
+  height: 9vh;
+  background: #7DABD0;
+}
+
+.area-nav-top {
+  height: 9vh;
+  background: transparent;
+}
+
+/* 네비게이션바 로고 이미지 */
+.img-logo {
+  width: 7.5vh;
+  height: 7.5vh;
+}
+
+/* 네비게이션바 로고 마우스 포인터 */
+.pointer {
+  cursor: pointer;
+}
+
+.pointer-none {
+  cursor: none;
+}
+
+
+
+/* Sign Up */
+
+/* 회원 가입 부분 */
+.part-signup {
+  width: 40vw;
+
+  background: #fff4e8;
+  border-radius: 20px;
+  filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.3));
+}
+
+/* 회원 가입 부분 */
+.part-update {
+  width: 30vw;
+
+  background: #fff4e8;
+  border-radius: 20px;
+  filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.3));
+}
+
+/* 회원 가입 유형 선택 */
+.form-list {
+  list-style: none;
+}
+
+.form-list-on {
+  width: 15vw;
+  height: 4px;
+
+  background: #7DABD0;
+}
+
+.form-list-off {
+  width: 15vw;
+  height: 4px;
+
+  background: black;
+  opacity: 0.3;
+}
+
+/* 상담사 회원 가입 프로필 이미지 */
+.form-profile-img {
+  width: 7vw;
+}
+
+
+
+/* Log In */
+
+/* 로그인 부분 */
+.part-login {
+  width: 30vw;
+
+  background: #fff4e8;
+  border-radius: 20px;
+  filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.3));
+}
+
+.img-logo-login {
+  width: 6.5vw;
+  height: 6.5vw;
+}
+
+
+
+/* 사이드바 */
+
+/* 왼쪽 사이드바 */
+.area-side {
+  height: 91vh;
+  background-color: #fff4e8;
+}
+
+/* 왼쪽 사이드바 메뉴 */
+.menu {
+  width: 10vw;
+  height: 6vh;
+
+  border: none;
+  outline: none;
+
+  background: #7DABD0;
+  border-radius: 20px;
+  filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.3));
+}
+
+.menu-small {
+  width: 10vw;
+  height: 5vh;
+
+  border: none;
+  outline: none;
+
+  background: #95D0F1;
+  border-radius: 20px;
+  filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.3));
+}
+
+
+
+/* 프로필 */
+
+/* 프로필(상담 내역) 콘텐츠 */
+.profile-content {
+  width: 70vw;
+  height: 70vh;
+
+  background: #fff4e8;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+}
+
+
+
+/* (영역) 프로필 */
+.area-profile {
+  line-height: 6vh;
+  width: 10vw;
+  height: 6vh;
+  background: #cfe7eb;
+  border-radius: 90px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+}
